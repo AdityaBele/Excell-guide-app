@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity49">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Index Function."
+                android:textSize="32sp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Definition: - The INDEX function returns a value or the reference to a value from within a
+table or range. There are two ways to use the INDEX function"
+                android:textSize="14sp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/index1"
+                android:padding="10dp"
+                android:layout_marginTop="50dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/index2"
+                android:padding="10dp"
+                android:layout_marginTop="50dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/index3"
+                android:padding="10dp"
+                android:layout_marginTop="50dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/index4"
+                android:padding="10dp"
+                android:layout_marginTop="50dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/resultindex"
+                android:padding="10dp"
+                android:layout_marginTop="50dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tip:-\n
+1.Press “enter” to execute command. \n
+2.Use “,” to give another value
+3.Between “ “ text can be entered\n
+4.Select cell in brackets which you want to change\n
+5.“ctrl” + “c” will copy the cell\n
+6.“ctrl” + “right click” will select multiple cells\n
+7.“ctrl” + “v” will paste the data/command/formula/logic\n
+8.If exact match will not found then it will take largest cell’s       \n    data nearest to it\n
+9.If you are typing a formula and you get an exact suggestion so clicking “tab” will take than
+    suggestion into cell\n
+10.“?” will replace a single character\n
+11.“*” will replace entire spelling."
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

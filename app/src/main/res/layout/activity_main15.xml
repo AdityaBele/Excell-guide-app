@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity15">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Concatenate Function."
+                android:textSize="32sp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Definition :-Joins several text string into one text string"
+                android:textSize="14sp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/con1"
+                android:padding="10dp"
+                android:layout_marginTop="50dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/con2"
+                android:padding="10dp"
+                android:layout_marginTop="50dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mid3"
+                android:layout_marginTop="50dp"
+                android:padding="10dp"
+                android:layout_marginStart="8dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/con3"
+                android:layout_marginTop="50dp"
+                android:padding="10dp"
+                android:layout_marginStart="8dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/resultcon4"
+                android:layout_marginTop="50dp"
+                android:padding="10dp"
+                android:layout_marginStart="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tip:-\n
+1.Press “enter” to execute command. \n
+2.Select cell in brackets which you want to change \n
+3.Use “,” to give another value\n
+4.Space is counted as one character"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

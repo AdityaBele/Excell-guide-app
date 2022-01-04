@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity12">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Left Function."
+            android:textSize="32sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Definition :- returns the specific number of characters from the start of text string
+                     "
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/left"
+           android:padding="10dp"
+           android:layout_marginTop="50dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/left2"
+            android:padding="10dp"
+            android:layout_marginTop="50dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/left3"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:layout_marginStart="8dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/resultcon4"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:layout_marginStart="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tip:-\n
+1.Press “enter” to execute command. \n
+2.Select cell in brackets which you want to change \n
+3.Type the number of characters which you want to change \n
+4.Use “,” to give another value
+"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+   </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/file_excel_outline.xml" value="0.12962962962962962" />
+        <entry key="app/src/main/res/drawable/button.xml" value="0.321025641025641" />
+        <entry key="app/src/main/res/drawable/file_excel_box.xml" value="0.26145833333333335" />
+        <entry key="app/src/main/res/layout/activity_basic.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main10.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_main11.xml" value="0.215" />
+        <entry key="app/src/main/res/layout/activity_main12.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main13.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main14.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main15.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main16.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main17.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main18.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main19.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main20.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main21.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main22.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main23.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main24.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main25.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main26.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/activity_main27.xml" value="0.255549539794261" />
+        <entry key="app/src/main/res/layout/activity_main28.xml" value="0.2579408543263965" />
+        <entry key="app/src/main/res/layout/activity_main29.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main3.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main30.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main31.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_main32.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_main33.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_main34.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_main35.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main36.xml" value="0.26001097092704334" />
+        <entry key="app/src/main/res/layout/activity_main37.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_main38.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_main39.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_main4.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main40.xml" value="0.25859247135842883" />
+        <entry key="app/src/main/res/layout/activity_main41.xml" value="0.2041343669250646" />
+        <entry key="app/src/main/res/layout/activity_main42.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main43.xml" value="0.1371131038472664" />
+        <entry key="app/src/main/res/layout/activity_main44.xml" value="0.1729295877417001" />
+        <entry key="app/src/main/res/layout/activity_main45.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main46.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main47.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main48.xml" value="0.22540592168099333" />
+        <entry key="app/src/main/res/layout/activity_main49.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main5.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main50.xml" value="0.21944444444444444" />
+        <entry key="app/src/main/res/layout/activity_main51.xml" value="0.21944444444444444" />
+        <entry key="app/src/main/res/layout/activity_main52.xml" value="0.23069403714565004" />
+        <entry key="app/src/main/res/layout/activity_main53.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main54.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/activity_main55.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/activity_main56.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/activity_main57.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main6.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main7.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main8.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main9.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/numerical_function.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.335" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

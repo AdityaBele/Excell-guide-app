@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        style="@style/Theme.ExcelGuide"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="32sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ptserif"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+<!--basic 1-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/basic"
+                    android:layout_width="90dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/file_excel_outline"/>
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    android:text="basic"/>
+            </LinearLayout>
+
+<!-- basic 2 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/basic2"
+                    android:layout_width="90dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/file_excel_outline"/>
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Top options"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+<!-- basic 3       -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/basic3"
+                    android:layout_width="90dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/file_excel_outline"/>
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:text="Text Functions"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:paddingLeft="10dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+<!--basci 4-->
+                <ImageButton
+                    android:id="@+id/basic4"
+                    android:layout_width="90dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/file_excel_outline"/>
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:text="Numerical Functions"/>
+            </LinearLayout>
+
+            <!-- basic 5 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/basic5"
+                    android:layout_width="90dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/file_excel_outline"/>
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:text="Logical Function"/>
+            </LinearLayout>
+            <!-- basic 6      -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/basic6"
+                    android:layout_width="90dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/file_excel_outline"/>
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:text="Lookup Functions"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/basic7"
+                    android:layout_width="90dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/file_excel_outline"/>
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:text="Array Functions"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

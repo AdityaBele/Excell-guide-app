@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity19">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Substitute Function."
+                android:textSize="32sp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Definition :- replace existing text with new text within a given text string."
+                android:textSize="14sp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sub1"
+                android:padding="10dp"
+                android:layout_marginTop="50dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/sub2"
+                android:padding="10dp"
+                android:layout_marginTop="50dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sub3"
+                android:layout_marginTop="50dp"
+                android:padding="10dp"
+                android:layout_marginStart="8dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sub4"
+                android:layout_marginTop="50dp"
+                android:padding="10dp"
+                android:layout_marginStart="8dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sub5"
+                android:layout_marginTop="50dp"
+                android:padding="10dp"
+                android:layout_marginStart="8dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/resultsub8"
+                android:layout_marginTop="50dp"
+                android:padding="10dp"
+                android:layout_marginStart="8dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/alternatesub1"
+                android:layout_marginTop="50dp"
+                android:padding="10dp"
+                android:layout_marginStart="8dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/alternateresultsub"
+                android:layout_marginTop="50dp"
+                android:padding="10dp"
+                android:layout_marginStart="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tip:-\n
+1.Press “enter” to execute command. \n
+2.Select cell in brackets which you want to change \n
+3.Type the number of characters which you want to change\n
+4.Use “,” to give another value\n
+5.Space is counted an one character\n"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
